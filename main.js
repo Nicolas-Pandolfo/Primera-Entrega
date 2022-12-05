@@ -13,22 +13,27 @@ do {
     switch(cuotas){
         case "1":
             resultado = division(precioProducto , 1);
+            alert("EL valor de su cuota es de: " + resultado);
             console.log("EL valor de su cuota es de: " + resultado);
             break;
         case "3":
             resultado = division(precioProducto , 3);
+            alert("El valor de su cuota es de: " + resultado.toFixed(2));
             console.log("El valor de su cuota es de: " + resultado.toFixed(2));
             break;
         case "6":
             resultado = division(precioProducto , 6);
+            alert("El valor de su cuota es de: " + resultado.toFixed(2));
             console.log("El valor de su cuota es de: " + resultado.toFixed(2));
             break;
         case "9":
             resultado = division(precioProducto , 9);
+            alert("El valor de su cuota es de: " + resultado.toFixed(2));
             console.log("El valor de su cuota es de: " + resultado.toFixed(2));
             break;
         case "12":
             resultado = division(precioProducto , 12);
+            alert("El valor de su cuota es de: " + resultado.toFixed(2));
             console.log("El valor de su cuota es de: " + resultado.toFixed(2));
             break;
         default:
